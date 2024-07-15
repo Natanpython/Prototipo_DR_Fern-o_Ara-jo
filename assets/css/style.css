@@ -1,0 +1,250 @@
+body{
+    background-color: #1a2a37;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.titulo .logo{
+    width: 40px;
+}
+
+.img .fotoDotor{
+    width: 330px;
+    height: 400px;
+}
+.info .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tituloPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.tituloPrincipal p{
+    font-size: 10px;
+    margin-top: -3px;
+   
+}
+.apresentacao{
+    width: 200px;
+}
+.apresentacao h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+.apresentacao .conteudo{
+    font-size: 10px;
+}
+.apresentacao .corDeFundo{
+    background-color: #ed3247;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    
+}
+ .contorno{
+    background-color: #ed3247;
+    border: 1px solid   #ed3247;
+    box-shadow: 2px 1px 2px  #cf5160;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contorno:hover{
+    background-color: #e64a5c;
+    cursor: pointer;
+}
+.especificacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.especificacoes .servico{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.especificacoes .servico img{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    bottom: 4px;
+    width: 80%;
+    margin: auto;
+    align-items: center; 
+}
+ .video img{
+    width: 140px;
+    margin-top: 50px; 
+    position: relative;
+    bottom: 45px;
+    right: 5px;
+}
+.video .borda{
+    background-color: #ed3247;
+    width: 140px;
+    height: 210px;
+    margin-top: 50px;
+    
+}
+.lista .marcaDeVerifica{
+    width: 7px;
+}
+.conteudoIcon{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: safe;
+    gap: 40px;
+}
+.conteudoLista{
+    width: 200px;
+    margin-top: 45px;
+    
+}
+.conteudoLista .lista li{
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.conteudoLista p{
+    font-size: 10px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+.conteudoPrincipal{
+    margin: 50px 0;
+}
+.tituloCompetenc .corV{
+    width: 300px;
+    background-color: #f10824;
+    background-size: cover;
+    font-size: 20px;
+    padding: 0 7px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+}
+.container .servicos{
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #657e91;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 10px;
+}
+.container .servicos u{
+        color: #ed3247;
+}
+.apresentacaoDR{
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: safe;
+}
+.apresentacao .apresentac{
+    width: 100px;
+}
+.apresentacaoDR .apresentac h1{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #f10824;
+}
+.apresentacaoDR .apresentac p{
+    width: 200px;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 20px 20px 20px 0;
+}
+
+.bordaBaixa img{
+    width: 250px;
+    height: 250px;
+    border-bottom: 5px solid #f10824;
+}
+.rodape{
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 10px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fone .icon{
+    width: 12px;
+}
+.contatoS{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: safe;
+}
+.contatoS {
+    width: 230px;
+    display: flex;
+    font-size: 10px;
+    margin-top: 20px;  
+}
+.contatoS h3{
+    margin-left: 50px;
+    width: 200px;
+    font-size: 10px;
+}
+.fone h1{
+    width: 100%;
+    text-align: start;
+    font-size: 17px;
+    font-weight: 700;
+    color: #d12539d0;
+}
+.fone p{
+    font-size: 10px;
+    width: 200px;
+    margin: 20px 20px 20px 0;
+}
+ .mapa .contraste{
+    background-color: #ed3247;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    
+}
+.mapa .contraste iframe{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+} 
+.fundoEspaço{
+    width: 100%;
+    height: 100px;
+}

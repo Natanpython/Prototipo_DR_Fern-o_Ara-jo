@@ -1,0 +1,11 @@
+@media(max-width:600px ){
+    *{
+        text-align: center;
+        margin: auto;
+    }
+    .rodape .fone h1{
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+}
